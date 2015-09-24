@@ -1,0 +1,153 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SBS.master.cs" Inherits="SBS.SBS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Small Buisness Solutions 4 U</title>
+<meta name="Description" content="Income Tax;IRS" />
+<meta name="KeyWords" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link rel="StyleSheet" href="coolstyle.css" type="text/css" />
+ 
+ 
+<script language="JavaScript" type="text/javascript" src="javascripts.js"></script>
+<script language="JavaScript" type="text/javascript" src="pop-closeup.js"></script>
+
+    
+    
+</head>
+<body>
+ 
+ 
+<!-- OUTER TABLE -->
+<TABLE cellpadding="0" cellspacing="0" border="0" width="97%" class="outertable"><tr><td valign="top" align="left" width="60">
+ 
+<script language="JavaScript" type="text/javascript" src="header.js"></script>
+ 
+</td><td valign="top" align="left">
+ 
+ 
+ 
+ 
+ 
+ 
+<script language="JavaScript" type="text/javascript" src="menu-top.js"></script>
+ 
+<!-- MENU TABLE -->
+<TABLE cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td valign="top" align="left" class="printhide">
+ 
+<img src="picts/corner-topleft.gif" height="15" width="15" border="0" alt="image"><br />
+ 
+<script language="JavaScript" type="text/javascript" src="menu.js"></script>
+ 
+</td><td valign="top" align="right">
+ 
+<!-- SEARCH TABLE -->
+<table cellpadding="0" cellspacing="0" border="0" class="searcharea"><tr><td valign="top" align="center">
+<script language="JavaScript" type="text/javascript" src="search.js"></script>
+</td></tr></table>
+<!-- SEARCH TABLE -->
+ 
+</td></tr></table>
+<!-- MENU TABLE -->
+ 
+ 
+ 
+  
+ 
+<!-- MAIN TABLE -->
+<table cellpadding="0" cellspacing="25" border="0" width="850">
+<tr><td align="center" valign="top" width="200">
+ 
+ <form id="form1" runat="server">
+    <div>
+
+
+
+ <asp:ContentPlaceHolder ID="LeftSideBar" runat="server">
+        
+        
+        
+        </asp:ContentPlaceHolder>
+    
+ 
+<br />
+ 
+ 
+ 
+</td><td valign="top" width="1" class="linevert">
+<img src="picts/spacer.gif" height="10" width="1" border="0" alt="image"><br />
+</td><td valign="top">
+ 
+ 
+    
+    
+    
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    
+    
+    
+    
+    
+    </div>
+    </form>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</td></tr></table>
+<!-- MAIN TABLE -->
+ 
+ 
+ 
+ 
+</td></tr><tr><td>
+ 
+<img src="picts/spacer.gif" height="10" width="10" border="0" alt="image"><br />
+ 
+</td><td>
+ 
+ 
+<span class="printhide">
+<img src="picts/corner-bottomleft.gif" height="15" width="15" border="0" alt="image"><br />
+</span>
+ 
+ 
+<!-- COPYRIGHT -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="footer">
+<tr><td align="left" valign="top" class="footertext">
+<script language="JavaScript" type="text/javascript" src="copyright.js"></script>
+</td><td align="right" valign="top" class="footertext">
+<script language="JavaScript" type="text/javascript" src="copyright-allwebco.js"></script>
+</td></tr></table>
+<!-- COPYRIGHT -->
+ 
+ 
+</td></tr></table>
+<!-- OUTER TABLE -->
+ 
+ 
+<br />
+ 
+ 
+</BODY>
+
+</html>
